@@ -1,0 +1,53 @@
+.colver {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  border-top: solid 2px #000;
+}
+
+.day {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.date {
+  border-collapse: collapse;
+  padding: 10px;
+  border: solid 4px #000;
+}
+
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.week:nth-child(n+3):nth-child(-n+4) {
+  border: solid 2px #ad0c0c;
+}
+
+.lines {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.line {
+  width: 90%;
+  margin-bottom: 40px;
+  border-bottom: solid 1px #000;
+}
