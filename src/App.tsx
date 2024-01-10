@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="clover">
       <header className='header'>
-        <h1>January</h1>
         <h2>2019</h2>
+        <h1>January</h1>
       </header>
       <div className='main-container'>
         <div className='day'>
-          <div>SUN</div>
+          <div className='red'>SUN</div>
           <div>MON</div>
           <div>TUE</div>
           <div>WED</div>
@@ -21,40 +21,40 @@ function App() {
         <section className='cal'>
           <article>
             <div className='week'>
-              <div className='date'>1</div>
-              <div className='date'>2</div>
-              <div className='date'>3</div>
-              <div className='date'>4</div>
-              <div className='date'>5</div>
-              <div className='date'>6</div>
-              <div className='date'>7</div>
+              <div className='date red'><p>1</p></div>
+              <div className='date'><p>2</p></div>
+              <div className='date'><p>3</p></div>
+              <div className='date'><p>4</p></div>
+              <div className='date'><p>5</p></div>
+              <div className='date'><p>6</p></div>
+              <div className='date'><p>7</p></div>
             </div>
             <div className='week'>
-              <div className='date'>1</div>
-              <div className='date'>2</div>
-              <div className='date'>3</div>
-              <div className='date'>4</div>
-              <div className='date'>5</div>
-              <div className='date'>6</div>
-              <div className='date'>7</div>
+              <div className='date red'><p>1</p></div>
+              <div className='date'><p>2</p></div>
+              <div className='date'><p>3</p></div>
+              <div className='date'><p>4</p></div>
+              <div className='date'><p>5</p></div>
+              <div className='date'><p>6</p></div>
+              <div className='date'><p>7</p></div>
             </div>
             <div className='week'>
-              <div className='date'>1</div>
-              <div className='date'>2</div>
-              <div className='date'>3</div>
-              <div className='date'>4</div>
-              <div className='date'>5</div>
-              <div className='date'>6</div>
-              <div className='date'>7</div>
+              <div className='date red'><p>1</p></div>
+              <div className='date'><p>2</p></div>
+              <div className='date'><p>3</p></div>
+              <div className='date'><p>4</p></div>
+              <div className='date'><p>5</p></div>
+              <div className='date'><p>6</p></div>
+              <div className='date'><p>7</p></div>
             </div>
             <div className='week'>
-              <div className='date'>1</div>
-              <div className='date'>2</div>
-              <div className='date'>3</div>
-              <div className='date'>4</div>
-              <div className='date'>5</div>
-              <div className='date'>6</div>
-              <div className='date'>7</div>
+              <div className='date red'><p>1</p></div>
+              <div className='date'><p>2</p></div>
+              <div className='date'><p>3</p></div>
+              <div className='date'><p>4</p></div>
+              <div className='date'><p>5</p></div>
+              <div className='date'><p>6</p></div>
+              <div className='date'><p>7</p></div>
             </div>
           </article>
         </section>
